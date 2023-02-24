@@ -1,5 +1,4 @@
-﻿
-namespace MyNameSpace
+﻿namespace MyNameSpace
 {
     internal class Program
     {
