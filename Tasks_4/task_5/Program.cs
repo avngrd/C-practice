@@ -65,14 +65,14 @@
         {
             products[0] = product;
         }
-        //public override string ToString()
-        //{
-        //    StringBuilder sb = new StringBuilder();
-        //    foreach (var product in products)
-        //    {
-        //        sb.AppendLine(product.ToString());
-        //    }
-        //    return sb.ToString();
-        //}
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var product in products)
+            {
+                sb.AppendLine(product.ToString());
+            }
+            return sb.ToString();
+        }
     }
 }
