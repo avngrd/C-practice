@@ -21,7 +21,6 @@
         }
         Console.WriteLine(stock);
     }
-
     internal class Product
     {
         public string Name { get; set; }
@@ -32,7 +31,6 @@
             return $"Название товара: {Name} - Магазин: {StoreName} - Цена: {Price}";
         }
     }
-
     internal class ProductCreator
     {
         public Product Create()
@@ -48,7 +46,6 @@
             return product;
         }
     }
-
     internal class Stock
     {
         private Product[] products;
