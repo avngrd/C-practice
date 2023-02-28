@@ -27,6 +27,7 @@
 
         public static int Input(string message)
         {
+            int numerous;
             int number = 0;
             do { 
                 Console.WriteLine(message);
