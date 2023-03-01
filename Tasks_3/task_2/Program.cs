@@ -20,6 +20,8 @@ namespace MyNamespace
                 Console.WriteLine($"Название животного:{animalName}");
             }
         }
+        // Классы выносим в отдельные файлы. например Bird.cs
+        // в редких случаях допускается использование нескольких классов в одном файле, но это исключение
         public class Bird : Animal
         {
             public bool isBird;
@@ -27,6 +29,7 @@ namespace MyNamespace
 
             public void BirdCheck()
             {
+                //Выносим класс Console и его методы в метод Main класса Program
                 Console.WriteLine($"{this.animalName} - Является птицей?(1 - да, 0 - нет)");
                 isBirdCheck = Convert.ToInt32(Console.ReadLine());
                 if (isBirdCheck == 0)
