@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTimer2", "WinTimer2\WinTimer2.csproj", "{BE786891-8740-4A8C-A4E3-4AAEA79E43AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinButNum", "..\Tasks_25\WinButNum\WinButNum.csproj", "{AD87BA25-4CE7-4147-86B2-387ABC5A4A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE786891-8740-4A8C-A4E3-4AAEA79E43AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE786891-8740-4A8C-A4E3-4AAEA79E43AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE786891-8740-4A8C-A4E3-4AAEA79E43AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE786891-8740-4A8C-A4E3-4AAEA79E43AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD87BA25-4CE7-4147-86B2-387ABC5A4A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD87BA25-4CE7-4147-86B2-387ABC5A4A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD87BA25-4CE7-4147-86B2-387ABC5A4A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD87BA25-4CE7-4147-86B2-387ABC5A4A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C399256C-8402-4869-A179-03D59C9058C8}
+	EndGlobalSection
+EndGlobal
