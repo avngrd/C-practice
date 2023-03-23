@@ -5,32 +5,32 @@ namespace MyNamespace
     {
         public static void Main()
         {
-            int a, b, c, d, e, f, g;
+            double a, b, c, d, e, f, g;
 
             WriteLine("Введите сторону А:");
-            a = Convert.ToInt32(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону B:");
-            b = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону C:");
-            c = Convert.ToInt32(Console.ReadLine());
+            c = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону D:");
-            d = Convert.ToInt32(Console.ReadLine());
+            d = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону E:");
-            e = Convert.ToInt32(Console.ReadLine());
+            e = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону F:");
-            f = Convert.ToInt32(Console.ReadLine());
+            f = Convert.ToDouble(Console.ReadLine());
 
             WriteLine("Введите сторону G:");
-            g = Convert.ToInt32(Console.ReadLine());
+            g = Convert.ToDouble(Console.ReadLine());
 
-            int nums, ans_2;
+            double nums, ans_2;
 
-            Triangle(f, g, c, out int ans_1);
+            Triangle(f, g, c, out double ans_1);
 
             Console.WriteLine(ans_1);
 
@@ -44,16 +44,16 @@ namespace MyNamespace
             Console.WriteLine(ans_2);
             Console.WriteLine(square);
         }
-        static void Triangle(int x, int y, int z, out int square)
+        static void Triangle(double x, double y, double z, out double square)
         {
             square = 0;
             double p = (x + y + z) / 2.0;
 
             double s = Math.Sqrt(p * (p - x) * (p - y) * (p - z));
 
-            square += Convert.ToInt32(s);
+            square += Convert.ToDouble(s);
         }
-        static double Triangle(int x, int y, int z, int w, int j)
+        static double Triangle(double x, double y, double z, double w, double j)
         {
             double p = (x + y + z + w + j) / 2.0;
 

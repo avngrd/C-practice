@@ -1,4 +1,6 @@
-﻿class Program
+﻿using System.Text;
+
+class Program
 {
     private string nameOfProduct;
     private string nameOfStore;
