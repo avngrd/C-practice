@@ -18,8 +18,8 @@ namespace MyNamespace
 
             Console.WriteLine("Введите имя сотрудника о котором хотите узнать информацию(для выходы из программы напишите exit): ");
             string employeeChecker = Console.ReadLine();
-         
-            if(Enum.TryParse(typeof(Employees),employeeChecker,out Employees currentEmployee)
+
+            if (Enum.TryParse(typeof(Employees), employeeChecker, out Employees currentEmployee)) ;
             {
                 currentEmployee =(Employees)Enum.Parse(typeof(Employees), employeeChecker);
             }
