@@ -19,7 +19,7 @@ namespace _30_1
         private SqlDataAdapter sqlDataAdapter = null;
         private DataSet dataSet = null;
         private string dbPath =
-            @"D:\Git projects\C-practice\day31\Day 31\30-1\DBTur_firm.mdf";
+            @"D:\C-practice\day31\Day 31\30-1\DBTur_firm.mdf";
 
         public Form1()
         {
