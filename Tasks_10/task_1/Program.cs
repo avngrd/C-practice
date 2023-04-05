@@ -15,7 +15,6 @@ namespace MyNamespace
 
             x0.F0(5);
             x1.F1();
-
             (x0 as Iy).F0(7);
             (x1 as Iz).F1();
         }
