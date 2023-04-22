@@ -10,6 +10,9 @@ namespace MyNamespace
             int numberOne = number / 1000;
             int numberTwo = (number % 1000) / 100;
             Console.WriteLine($"Получившееся число:{numberTwo}{numberOne}");
+            
+            
+            
         }
     }
 }
