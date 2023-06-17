@@ -5,6 +5,9 @@ namespace MyNamespace
     {
         public static void Main()
         {
+
+
+
             Calculate x0 = new Calculate(5);
             Calculate x1 = new Calculate(12);
 
