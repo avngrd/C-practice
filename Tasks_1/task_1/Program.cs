@@ -7,9 +7,6 @@ namespace MyNamespace
         {
 
 
-
-
-
             
             Console.WriteLine("Введите число а");
             Console.WriteLine("Введите число а");
