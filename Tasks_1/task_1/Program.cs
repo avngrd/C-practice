@@ -1,15 +1,10 @@
-﻿using static System.Console;
+using static System.Console;
 namespace MyNamespace
 {
     class Program
     {
         public static void Main()
         {
-
-
-
-
-
             
             Console.WriteLine("Введите число а");
             Console.WriteLine("Введите число а");
