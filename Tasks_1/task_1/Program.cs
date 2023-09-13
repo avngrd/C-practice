@@ -5,6 +5,12 @@ namespace MyNamespace
     {
         public static void Main()
         {
+
+
+
+
+
+            
             Console.WriteLine("Введите число а");
             Console.WriteLine("Введите число а");
             int a = Convert.ToInt32(Console.ReadLine());
