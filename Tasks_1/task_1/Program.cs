@@ -5,6 +5,10 @@ namespace MyNamespace
     {
         public static void Main()
         {
+
+
+
+
             
             Console.WriteLine("Введите число а");
             Console.WriteLine("Введите число а");
